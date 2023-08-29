@@ -2,7 +2,8 @@ name: React CI
 
 on:
   push:
-    branches: - "master"
+    branches:
+      - master
 
 jobs:
   build:
@@ -17,3 +18,4 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm test
+#sddsdsadkasdasd
